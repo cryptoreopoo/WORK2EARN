@@ -147,7 +147,7 @@ interface IDEXRouter {
     ) external;
 }
 
-contract Label2Earn is IBEP20, Auth {
+contract Learnl2Earn is IBEP20, Auth {
     using SafeMath for uint256;
 
     address constant WBNB = 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c;
@@ -156,7 +156,7 @@ contract Label2Earn is IBEP20, Auth {
     address public REWARD = 0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56;
     address public PANCAKE_ROUTER = 0x10ED43C718714eb63d5aA57B78B54704E256024E;
 
-    string constant _name = "Label2Earn";
+    string constant _name = "Learn2Earn";
     string constant _symbol = "L2E";
     uint8 constant _decimals = 18;
 
